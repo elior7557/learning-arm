@@ -39,6 +39,6 @@ jobs:
           template: ./arm_templates/storageaccount.json
           parameters:
            ./arm_templates/storageaccount.parameters.json
-           storageAccountName=globostg002thisisuniuqname
+           storageAccountName=globostg002iuqname
            location="Australia East"
           deploymentMode: incremental
