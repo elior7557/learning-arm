@@ -22,7 +22,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy Resource Group rg-githubactions
-        uses: Azure/cli@v1
+        uses: Azure/deploy@v1
         with:
           scope: subscription
           subscriptionId: c78477d4-1241-41e8-89a4-8453626b3798
