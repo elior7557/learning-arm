@@ -3,9 +3,6 @@ name: armTenplateDeployment
 
  
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 env:
